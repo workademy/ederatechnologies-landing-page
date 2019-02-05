@@ -3,14 +3,15 @@
     <div>
       <logo />
       <h1 class="title">
-        EdEra-Technologies
+        EdEra Technologies
       </h1>
       <h2 class="subtitle">
-        EdEra Technologies creates software to support education, learning, and development
+        We build software to support education, learning, and development.
       </h2>
       <div class="links">
         <c-t-a :corporate="true" />
         <c-t-a :educational="true" />
+        <c-t-a :individual="true" />
       </div>
     </div>
   </section>

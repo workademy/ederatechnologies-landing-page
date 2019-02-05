@@ -1,6 +1,6 @@
 <template>
   <a
-    class="typeform-share button--green"
+    class="typeform-share button--primary"
     href="#"
     data-mode="drawer_right"
     @click="onTypeFormClick">{{ text }}</a>
@@ -9,14 +9,16 @@
   import { mapGetters } from 'vuex'
   import * as typeformEmbed from '@typeform/embed'
   export default {
-    props: ['corporate', 'educational'],
+    props: ['corporate', 'educational', 'individual'],
     computed: {
-      ...mapGetters(['corporateTypeFormUrl', 'educationalInstitutionsTypeFormUrl']),
+      ...mapGetters(['corporateTypeFormUrl', 'educationalInstitutionsTypeFormUrl', 'individualTypeFormUrl']),
       text () {
         if (this.corporate) {
           return 'I represent an HR or a Learning department'
-        } else {
+        } else if (this.educational) {
           return 'I represent an educational institution'
+        } else {
+          return 'I am a trainer/coach/consultant'
         }
       }
     },
@@ -26,7 +28,7 @@
       }
     },
     created () {
-      let url = this.corporate ? this.corporateTypeFormUrl : this.educationalInstitutionsTypeFormUrl
+      let url = this.corporate ? this.corporateTypeFormUrl : this.educational ? this.educationalInstitutionsTypeFormUrl : this.individualTypeFormUrl
       this.popup = typeformEmbed.makePopup(url, {
         mode: 'drawer_right',
         hideHeaders: true,
