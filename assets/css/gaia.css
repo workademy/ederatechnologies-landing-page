@@ -179,7 +179,7 @@ a:hover {
 }
 
 .text-info {
-  color: #00abc0 !important;
+  color: #60b1bc !important;
 }
 
 .text-success {
@@ -241,7 +241,12 @@ a:hover {
 .separator:after {
   float: right;
 }
-
+.separator-info {
+  color: #60b1bc;
+}
+.separator-info:before, .separator-info:after {
+  border-color: #60b1bc;
+}
 .separator-danger {
   color: #e78b90;
 }
@@ -354,12 +359,16 @@ body > .navbar-collapse a {
   height: auto;
 }
 
+.avatar-info {
+  border-color: #60b1bc;
+}
+
 .avatar-danger {
   border-color: #e78b90;
 }
 
 *::selection {
-  background: #e78b90;
+  background: #60b1bc;
   color: #FFFFFF;
 }
 
@@ -578,6 +587,11 @@ a,
   border-color: #e78b90;
   color: #e78b90;
 }
+.btn-info,
+.navbar .navbar-nav > li > a.btn-info {
+  border-color: #60b1bc;
+  color: #60b1bc;
+}
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle,
 .navbar .navbar-nav > li > a.btn-danger:hover,
 .navbar .navbar-nav > li > a.btn-danger:focus,
@@ -588,6 +602,16 @@ a,
   color: #e47a80;
   border-color: #e47a80;
 }
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle,
+.navbar .navbar-nav > li > a.btn-info:hover,
+.navbar .navbar-nav > li > a.btn-info:focus,
+.navbar .navbar-nav > li > a.btn-info:active,
+.navbar .navbar-nav > li > a.btn-info.active, .open >
+.navbar .navbar-nav > li > a.btn-info.dropdown-toggle {
+  background-color: transparent;
+  color: #5299a4;
+  border-color: #5299a4;
+}
 .btn-danger:disabled, .btn-danger[disabled], .btn-danger.disabled,
 .navbar .navbar-nav > li > a.btn-danger:disabled,
 .navbar .navbar-nav > li > a.btn-danger[disabled],
@@ -595,10 +619,24 @@ a,
   background-color: transparent;
   border-color: #e78b90;
 }
+.btn-info:disabled, .btn-info[disabled], .btn-info.disabled,
+.navbar .navbar-nav > li > a.btn-info:disabled,
+.navbar .navbar-nav > li > a.btn-info[disabled],
+.navbar .navbar-nav > li > a.btn-info.disabled {
+  background-color: transparent;
+  border-color: #60b1bc;
+}
 .btn-danger.btn-fill,
 .navbar .navbar-nav > li > a.btn-danger.btn-fill {
   color: #FFFFFF;
   background-color: #e78b90;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.btn-info.btn-fill,
+.navbar .navbar-nav > li > a.btn-info.btn-fill {
+  color: #FFFFFF;
+  background-color: #60b1bc;
   opacity: 1;
   filter: alpha(opacity=100);
 }
@@ -611,13 +649,31 @@ a,
   background-color: #e47a80;
   color: #FFFFFF;
 }
+.btn-info.btn-fill:hover, .btn-info.btn-fill:focus, .btn-info.btn-fill:active, .btn-info.btn-fill.active, .open > .btn-info.btn-fill.dropdown-toggle,
+.navbar .navbar-nav > li > a.btn-info.btn-fill:hover,
+.navbar .navbar-nav > li > a.btn-info.btn-fill:focus,
+.navbar .navbar-nav > li > a.btn-info.btn-fill:active,
+.navbar .navbar-nav > li > a.btn-info.btn-fill.active, .open >
+.navbar .navbar-nav > li > a.btn-info.btn-fill.dropdown-toggle {
+  background-color: #60b1bc;
+  color: #FFFFFF;
+}
 .btn-danger.btn-fill .caret,
 .navbar .navbar-nav > li > a.btn-danger.btn-fill .caret {
+  border-top-color: #FFFFFF;
+}
+.btn-info.btn-fill .caret,
+.navbar .navbar-nav > li > a.btn-info.btn-fill .caret {
   border-top-color: #FFFFFF;
 }
 .btn-danger .caret,
 .navbar .navbar-nav > li > a.btn-danger .caret {
   border-top-color: #e78b90;
+}
+
+.btn-info .caret,
+.navbar .navbar-nav > li > a.btn-info .caret {
+  border-top-color: #60b1bc;
 }
 
 .btn-black,
@@ -1108,7 +1164,7 @@ a,
   background: #55bea4;
 }
 .filter.filter-color-blue:before {
-  background: #008b9c;
+  background: #406a73;
 }
 .filter.filter-color-purple:before {
   background: #50236F;
@@ -1162,19 +1218,19 @@ a,
   /* IE6-9 fallback on horizontal gradient */
 }
 .filter.filter-gradient-blue:before {
-  background: #085078;
+  background: #2f5460;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #085078 0%, #87d7db 100%);
+  background: -moz-linear-gradient(-45deg, #2f5460 0%, #60b1bc 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #085078), color-stop(100%, #87d7db));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #2f5460), color-stop(100%, #60b1bc));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #085078 0%, #87d7db 100%);
+  background: -webkit-linear-gradient(-45deg, #2f5460 0%, #60b1bc 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #085078 0%, #87d7db 100%);
+  background: -o-linear-gradient(-45deg, #2f5460 0%, #60b1bc 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #085078 0%, #87d7db 100%);
+  background: -ms-linear-gradient(-45deg, #2f5460 0%, #60b1bc 100%);
   /* IE10+ */
-  background: linear-gradient(135deg, #085078 0%, #87d7db 100%);
+  background: linear-gradient(135deg, #2f5460 0%, #60b1bc 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#085078', endColorstr='#87d7db',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */

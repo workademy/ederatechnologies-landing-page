@@ -16,10 +16,10 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right navbar-uppercase">
           <li>
-            <a href="#whoweare">Who We Are?</a>
+            <a href="#whatwedo">What We Do?</a>
           </li>
           <li>
-            <a href="#whatwedo">What We Do?</a>
+            <a href="#whoweare">Who We Are?</a>
           </li>
           <li>
             <typeform :url="contactFormTypeFormUrl" :text="'Contact Us!'"></typeform>

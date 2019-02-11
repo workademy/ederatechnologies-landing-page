@@ -44,15 +44,3 @@ export default {
   }
 }
 </script>
-
-<style>
-  .header1 {
-    background-image: url('~assets/img/header-1.jpeg')
-  }
-  .header2 {
-    background-image: url('~assets/img/header-2.jpeg')
-  }
-  .office1 {
-    background-image: url('~assets/img/office-1.jpeg')
-  }
-</style>
