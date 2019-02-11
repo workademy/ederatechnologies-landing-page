@@ -133,7 +133,11 @@
     </div>
   </div>
 </template>
-<style>
+<style scoped>
+  a {
+    color: white;
+    border-bottom: 1px dashed white;
+  }
   .header2 {
     background-image: url('~assets/img/header-2.jpg')
   }
