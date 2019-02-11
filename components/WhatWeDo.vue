@@ -4,36 +4,43 @@
       <div class="row">
         <div class="title-area">
           <h2 id="whatwedo">What we do?</h2>
-          <div class="separator separator-danger">✻</div>
-          <p class="description">We promise you a new look and more importantly, a new attitude. We build that by getting to know you, your needs and creating the best looking clothes.</p>
+          <div class="separator separator-info">✻</div>
+          <p class="description">
+            We address your digital educational needs. Are you an university and you want some of your courses or programs being available online?
+            Are you an HR or L&D department that aims to improve an onboarding and learning processes within the company?
+            Are you an individual (trainer/coacher/consultant) that wants to share some knowledge?
+            We will help you to assess your needs and to find the most efficient solution.
+            We will not build a platform where a landing page with a couple of videos is enough.
+            We are valuing your resources.
+          </p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
           <div class="info-icon">
-            <div class="icon text-danger">
-              <i class="pe-7s-graph1"></i>
+            <div class="icon text-info">
+              <i class="pe-7s-display1"></i>
             </div>
-            <h3>Sales</h3>
-            <p class="description">We make our design perfect for you. Our adjustment turn our clothes into your clothes.</p>
+            <h3>Platform</h3>
+            <p class="description">We provide you with an LMS platform as a service fully customized for your needs.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="info-icon">
-            <div class="icon text-danger">
-              <i class="pe-7s-note2"></i>
+            <div class="icon text-info">
+              <i class="pe-7s-study"></i>
             </div>
-            <h3>Content</h3>
-            <p class="description">We create a persona regarding the multiple wardrobe accessories that we provide..</p>
+            <h3>Studio</h3>
+            <p class="description">We help you to create an educational digital content from scratch.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="info-icon">
-            <div class="icon text-danger">
-              <i class="pe-7s-music"></i>
+            <div class="icon text-info">
+              <i class="pe-7s-loop"></i>
             </div>
-            <h3>Music</h3>
-            <p class="description">We like to present the world with our work, so we make sure we spread the word regarding our clothes.</p>
+            <h3>Full Solution</h3>
+            <p class="description">We provide you with a platform filled with the content we create with you.</p>
           </div>
         </div>
       </div>
