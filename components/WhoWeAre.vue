@@ -35,9 +35,9 @@
                         </div>
                         <div class="description">
                           <h3 class="title">Olga</h3>
-                          <p class="small-text">Founder</p>
+                          <p class="small-text">Software Engineer</p>
                           <p class="description">
-                            Olga is founder of EdEra Technologies. She is a software engineer with 10+ years of experience, manager, mentor, and e-ducator . Olga is a co-founder and CTO at EdEra, VP engineering at OptioPay, Berlin
+                            Olga is a software engineer with 10+ years of experience, manager, mentor, and e-ducator . Olga is a co-founder and CTO at EdEra, VP engineering at OptioPay, Berlin
                           </p>
                         </div>
                       </div>
@@ -51,8 +51,8 @@
                         </div>
                         <div class="description">
                           <h3 class="title">Rui</h3>
-                          <p class="small-text">Co-founder</p>
-                          <p class="description">Rui is a co-founder of EdEra Technologies. Software engineer with 10+ years of experience,  VP engineering at EdEra  and Lead software engineer at Gymondo, Berlin</p>
+                          <p class="small-text">Software Engineer</p>
+                          <p class="description">Rui is a software engineer with 10+ years of experience,  VP engineering at EdEra  and Lead software engineer at Gymondo, Berlin</p>
                         </div>
                       </div>
                     </div>

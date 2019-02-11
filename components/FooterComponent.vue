@@ -2,7 +2,7 @@
   <footer class="footer footer-big footer-color-black" data-color="black">
     <div class="container">
       <div class="row">
-        <div class="col-md-2 col-sm-3">
+        <div class="col-md-3 col-sm-4">
           <div class="info">
             <h5 class="title">EdEra Technologies</h5>
             <nav>
@@ -19,7 +19,7 @@
             </nav>
           </div>
         </div>
-        <div class="col-md-3 col-md-offset-1 col-sm-3">
+        <div class="col-md-4 col-md-offset-1 col-sm-4">
           <div class="info">
             <h5 class="title"> Help and Support</h5>
             <nav>
@@ -63,7 +63,7 @@
             <!--</nav>-->
           <!--</div>-->
         <!--</div>-->
-        <div class="col-md-2 col-md-offset-1 col-sm-3">
+        <div class="col-md-3 col-md-offset-1 col-sm-4">
           <div class="info">
             <h5 class="title">Follow us on</h5>
             <nav>
