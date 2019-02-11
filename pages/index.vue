@@ -1,63 +1,58 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        EdEra Technologies
-      </h1>
-      <h2 class="subtitle">
-        We build software to support education, learning, and development.
-      </h2>
-      <div class="links">
-        <c-t-a :corporate="true" />
-        <c-t-a :educational="true" />
-        <c-t-a :individual="true" />
-      </div>
-    </div>
-  </section>
+  <div>
+    <nav-bar />
+    <header-tagline />
+    <what-we-do />
+    <who-we-are />
+    <partners />
+    <pre-footer />
+    <footer-component />
+  </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
-import CTA from '~/components/CTA.vue'
+import NavBar from '~/components/NavBar.vue'
+import HeaderTagline from '~/components/HeaderTagline.vue'
+import WhatWeDo from '~/components/WhatWeDo.vue'
+import WhoWeAre from '~/components/WhoWeAre.vue'
+import Typeform from '~/components/Typeform.vue'
+import Partners from '~/components/Partners.vue'
+import PreFooter from '~/components/PreFooter.vue'
+import FooterComponent from '~/components/FooterComponent.vue'
+import SubscribeNewsletterAction from '~/components/SubscribeNewsletterAction.vue'
+import { mapActions } from 'vuex'
 
 export default {
+  methods: {
+    ...mapActions(['init'])
+  },
   components: {
     Logo,
-    CTA
+    Typeform,
+    SubscribeNewsletterAction,
+    NavBar,
+    HeaderTagline,
+    WhatWeDo,
+    WhoWeAre,
+    Partners,
+    PreFooter,
+    FooterComponent
+  },
+  mounted () {
+    this.init()
   }
 }
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
+  .header1 {
+    background-image: url('~assets/img/header-1.jpeg')
+  }
+  .header2 {
+    background-image: url('~assets/img/header-2.jpeg')
+  }
+  .office1 {
+    background-image: url('~assets/img/office-1.jpeg')
+  }
 </style>
