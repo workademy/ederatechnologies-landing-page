@@ -6,9 +6,9 @@
           <h2 id="whatwedo">What we do?</h2>
           <div class="separator separator-info">✻</div>
           <p class="description">
-            We address your digital educational needs. Are you an university and you want some of your courses or programs being available online?
-            Are you an HR or L&D department that aims to improve an onboarding and learning processes within the company?
-            Are you an individual (trainer/coacher/consultant) that wants to share some knowledge?
+            We address your digital educational needs. Are you an <strong>university</strong> and you want some of your courses or programs being available online?
+            Are you an <strong>HR or L&D department</strong> that aims to improve an onboarding and learning processes within the company?
+            Are you an <strong>individual (trainer/coacher/consultant)</strong> that wants to share some knowledge?
             We will help you to assess your needs and to find the most efficient solution.
             We will not build a platform where a landing page with a couple of videos is enough.
             We are valuing your resources.

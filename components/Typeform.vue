@@ -1,7 +1,8 @@
 <template>
   <a
-    class="typeform-share button--primary"
-    href="#"
+    class="typeform-share btn btn-info btn-fill btn-lg"
+
+  href="#"
     data-mode="drawer_right"
     @click="onTypeFormClick">{{ text }}</a>
 </template>

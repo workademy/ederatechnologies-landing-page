@@ -36,10 +36,4 @@
   .header1 {
     background-image: url('~assets/img/header-1-min-worked.jpg')
   }
-  .header2 {
-    background-image: url('~assets/img/header-2.jpeg')
-  }
-  .office1 {
-    background-image: url('~assets/img/office-1.jpeg')
-  }
 </style>
