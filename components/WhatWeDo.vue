@@ -6,7 +6,7 @@
           <h2 id="whatwedo">What we do?</h2>
           <div class="separator separator-info">✻</div>
           <p class="description">
-            We address your digital educational needs. Are you an <strong>university</strong> and you want some of your courses or programs being available online?
+            We address your digital educational needs. Are you a <strong>university</strong> and you want some of your courses or programs being available online?
             Are you an <strong>HR or L&D department</strong> that aims to improve an onboarding and learning processes within the company?
             Are you an <strong>individual (trainer/coacher/consultant)</strong> that wants to share some knowledge?
             We will help you to assess your needs and to find the most efficient solution.

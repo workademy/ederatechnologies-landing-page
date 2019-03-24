@@ -10,7 +10,7 @@
                 <li>
                   <a href="#">Home</a></li>
                 <li>
-                  <a href="#whoweare">Who We Are</a>
+                  <a href="#whoweare">Who Are We</a>
                 </li>
                 <li>
                   <a href="#whatwedo">What We Do</a>

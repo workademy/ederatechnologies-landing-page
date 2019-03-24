@@ -7,7 +7,7 @@
         <div class="content">
           <div class="row">
             <div class="title-area">
-              <h2 id="whoweare">Who We Are</h2>
+              <h2 id="whoweare">Who Are We</h2>
               <div class="separator separator-info">✻</div>
               <p class="description">
                 It all started back in 2014 when we launched <a href="https://www.ed-era.com">EdEra</a> - online education studio in Ukraine.

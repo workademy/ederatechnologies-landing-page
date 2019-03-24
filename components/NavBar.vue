@@ -19,11 +19,10 @@
             <a href="#whatwedo">What We Do?</a>
           </li>
           <li>
-            <a href="#whoweare">Who We Are?</a>
+            <a href="#whoweare">Who Are We?</a>
           </li>
           <li>
             <typeform :url="contactFormTypeFormUrl" :text="'Contact Us!'"></typeform>
-            <!--<a href="http://www.creative-tim.com/product/gaia-bootstrap-template" class="btn btn-danger btn-fill">Free Download</a>-->
           </li>
         </ul>
       </div>
