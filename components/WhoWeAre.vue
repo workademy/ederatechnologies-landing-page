@@ -7,18 +7,18 @@
         <div class="content">
           <div class="row">
             <div class="title-area">
-              <h2 id="whoweare">Who Are We</h2>
+              <h2 id="whoweare">Who Are We?</h2>
               <div class="separator separator-info">✻</div>
               <p class="description">
                 It all started back in 2014 when we launched <a href="https://www.ed-era.com">EdEra</a> - online education studio in Ukraine.
                 EdEra creates digital educational solutions such as online courses, interactive books, and other educational projects.
                 EdEra has developed educational solutions in collaboration with Unisef, Unesco, the Ministry of Education of Ukraine, etc.
-                For example, the course that EdEra launched in cooperation with the Ministry of Education of Ukraine has been passed by 200K ukrainian teachers.
-                As we learned more and more about learning we realised that we need to create a software solution to support online education.
-                We actually created an MVP and described its creation in the book and in the upcoming online course!
+                For example, the course that EdEra launched in cooperation with the Ministry of Education of Ukraine has certified over 200000 Ukrainian teachers.
+                As we learned more and more about learning, we realised that we need to create a software solution to support online education.
+                We actually created an MVP and described its creation in the <a href=""></a>book and in the upcoming online course!
               </p>
               <p class="description">
-                We are 6 software engineers based in Berlin who are passionate about online education and helps EdEra on our free time.
+                We are 6 software engineers based in Berlin who are passionate about online education and help EdEra on our free time.
               </p>
             </div>
           </div>

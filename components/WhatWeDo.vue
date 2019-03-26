@@ -3,15 +3,15 @@
     <div class="container">
       <div class="row">
         <div class="title-area">
-          <h2 id="whatwedo">What we do?</h2>
+          <h2 id="whatwedo">What do we do?</h2>
           <div class="separator separator-info">✻</div>
           <p class="description">
-            We address your digital educational needs. Are you a <strong>university</strong> and you want some of your courses or programs being available online?
-            Are you an <strong>HR or L&D department</strong> that aims to improve an onboarding and learning processes within the company?
-            Are you an <strong>individual (trainer/coacher/consultant)</strong> that wants to share some knowledge?
-            We will help you to assess your needs and to find the most efficient solution.
+            We address your digital educational needs. Are you a <strong>university</strong> and do you want some of your courses or programs to be available online?
+            Are you an <strong>HR or L&D department</strong> that aims to improve onboarding and learning processes within the company?
+            Are you an <strong>individual (trainer/coach/consultant)</strong> that wants to share some knowledge?
+            We will help you assess your needs and find the most efficient solution.
             We will not build a platform where a landing page with a couple of videos is enough.
-            We are valuing your resources.
+            We value your resources.
           </p>
         </div>
       </div>
@@ -31,7 +31,7 @@
               <i class="pe-7s-study"></i>
             </div>
             <h3>Studio</h3>
-            <p class="description">We help you to create an educational digital content from scratch.</p>
+            <p class="description">We help you create an educational digital content from scratch.</p>
           </div>
         </div>
         <div class="col-md-4">
