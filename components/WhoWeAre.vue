@@ -15,7 +15,7 @@
                 EdEra has developed educational solutions in collaboration with Unisef, Unesco, the Ministry of Education of Ukraine, etc.
                 For example, the course that EdEra launched in cooperation with the Ministry of Education of Ukraine has certified over 200000 Ukrainian teachers.
                 As we learned more and more about learning, we realised that we need to create a software solution to support online education.
-                We actually created an MVP and described its creation in the <a href=""></a>book and in the upcoming online course!
+                We actually created an MVP and described its creation in <a href="http://a.co/d/aPREIrN">the book</a> and in the upcoming online course!
               </p>
               <p class="description">
                 We are 6 software engineers based in Berlin who are passionate about online education and help EdEra on our free time.

@@ -11,7 +11,7 @@
           </div>
 
           <div class="button-get-started">
-            <typeform :url="subscribeNewsletterTypeFormUrl" :text="'Subscribe to Newsletter!'"></typeform>
+            <typeform :url="subscribeNewsletterTypeFormUrl" :text="'Subscribe to our Newsletter!'"></typeform>
           </div>
         </div>
 
